@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<html lang="fr">
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script
+src="https://code.jquery.com/jquery-3.3.1.min.js"
+integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+crossorigin="anonymous"></script>
+
+<head>
+	<title></title>
+</head>
+<body>
+	<canvas width=850	 height=600 id="canvas"></canvas>
+	<form action="score.php" method="post" id="submit">
+		<div class="form-example">
+
+			<label for="name" id="label">Entrez votre pseudo </label>
+			<input type="text" name="pseudo" id="pseudo" required>
+		</div>
+		<label for="score" >Score </label>
+		<input type="text" class="score" value="" disabled> 
+		<input class="score" type="hidden" name="score" id="score" value=""> 
+		<div class="form-example">
+			<input type="submit" value="Envoyer" id="send" required>
+		</div>
+	</form>
+
+</body>
+<script type="text/javascript" src="js/Ajax.js"> </script>
+<script type="text/javascript" src="js/MainMenu.js"> </script>
+<script type="text/javascript" src="js/GameOver.js"> </script>
+<script type="text/javascript" src="js/Game.js"> </script>
+<script type="text/javascript" src="js/effect.js"></script>
+<script type="text/javascript" src="js/rings.js"></script>
+<script type="text/javascript" src="js/enemy.js"> </script>
+<script type="text/javascript" src="js/sonic.js"> </script>
+<script type="text/javascript" src="js/Background.js"> </script>
+<script type="text/javascript" src="js/main.js"></script>
+</html>

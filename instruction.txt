@@ -1,0 +1,12 @@
+				 - Instruction -
+
+
+________________________________________________________________
+
+
+Lancez le fichier index.html pour jouer sans utiliser de base de données.
+
+Si vous voulez jouer avec la base de données lancez index.phtml avec la base de données se nommant "board.sql".
+
+
+________________________________________________________________
