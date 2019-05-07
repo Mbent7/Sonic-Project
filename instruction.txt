@@ -8,5 +8,7 @@ Lancez le fichier index.html pour jouer sans utiliser de base de données.
 
 Si vous voulez jouer avec la base de données lancez index.phtml avec la base de données se nommant "board.sql".
 
+Les touches sont " Z " pour sauter , " Q " pour aller à gauche et " D " pour aller à droite.
+
 
 ________________________________________________________________
